@@ -1,0 +1,6 @@
+if test $# -eq 3
+then
+echo "equal"
+else
+echo "not equal"
+fi

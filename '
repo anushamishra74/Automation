@@ -1,0 +1,13 @@
+if [ $# -eq 0 ]
+then
+echo "Give command line argument"
+echo "Syntax: $0 argument"
+exit 1
+fi
+n=$1
+for (( i=1 ; i<= 5 ; i++ ))
+do
+echo "$n * $i = `expr $n \* $i`"
+done
+
+

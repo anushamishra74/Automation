@@ -1,0 +1,6 @@
+if cat $1
+then 
+echo -e "file $1,found"
+else
+echo "file not found"
+fi

@@ -1,0 +1,6 @@
+word=$1
+case $word in 
+[A-Z]*|[a-z]*) echo "word starts with alphabet";;
+[0-9]*) echo "word starts with digit";;
+*) echo "Invalid"
+esac

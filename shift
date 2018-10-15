@@ -1,0 +1,16 @@
+if [ "$#" -eq 0 ]
+then
+echo " pass the arguments"
+fi
+exit 1
+if [ "$# -ne 0 ]
+then
+echo "Command line arguments: \$1=$1, \$2=$2, \$3=$3"
+shift
+echo "command line arguments: \$1=$2, \$2=$2, \$3=$3"
+fi
+
+
+
+
+
